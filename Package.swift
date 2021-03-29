@@ -16,7 +16,8 @@ let package = Package(
             name: "SVProgressHUD",
             path: "SVProgressHUD",
             exclude: ["SVProgressHUD-Prefix.pch"],
-            resources: [.process("SVProgressHUD.bundle")]
+            resources: [.process("SVProgressHUD.bundle")],
+            publicHeadersPath: ""
         )
     ]
 )
