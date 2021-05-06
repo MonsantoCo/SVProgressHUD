@@ -14,9 +14,8 @@ let package = Package(
     targets: [
         .target(
             name: "SVProgressHUD",
-            path: "SVProgressHUD",
+            path: "SVProgressHUD/Sources",
             exclude: ["SVProgressHUD-Prefix.pch"],
-            sources: ["Sources"],
             resources: [.copy("../Resources/SVProgressHUD.bundle")],
             publicHeadersPath: ""
         )
